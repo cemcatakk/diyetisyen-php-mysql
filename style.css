@@ -1,0 +1,224 @@
+html {
+    background: url('img/bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.568);
+    margin: 0;
+    padding: 0;
+}
+
+.icerik {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    overflow-x: auto;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.trlink td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.form {
+    background-color: rgb(10, 190, 19);
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form:hover {
+    cursor: pointer;
+    background-color: #088eff;
+}
+
+.menu {
+    background-color: rgb(10, 190, 19);
+    padding: 16px;
+    border: none;
+    border-radius: 20px;
+    transition: 1s all;
+    color: white;
+    font-weight: bold;
+    outline: none;
+}
+
+.menu:hover {
+    background-color: #088eff;
+    cursor: pointer;
+}
+
+.bilgi {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    font-family: poppins;
+}
+
+.bilgi img {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border-radius: 20px;
+    width: 1000px;
+    height: 700px;
+}
+
+.bilgi p {
+    font-size: 20px;
+}
+
+.width80 {
+    width: 300px;
+}
+
+.tablo {
+    padding: 40px;
+    background-color: rgba(128, 255, 0, 0.459);
+    border-radius: 50px;
+    width: 24%;
+    margin-left: 1%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+input[type='submit'] {
+    padding: 30px;
+    font-size: 25px;
+}
+
+.mesajtablo {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 26, 255, 0.459);
+    margin-left: 1%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.bilgitd {
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 20px;
+}
+
+.mesajtd {
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 30px;
+    max-width: 1px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.mesajtablo tr td {
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.tablo2 {
+    padding: 40px;
+    background-color: rgba(128, 255, 0, 0.459);
+    border-radius: 50px;
+    width: 60%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.tablo2 tr th,
+.tablo2 tr td {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.tablo3 {
+    padding: 40px;
+    background-color: rgba(128, 255, 0, 0.459);
+    border-radius: 50px;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 23px;
+}
+
+.tablo3 tr th,
+.tablo3 tr td {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: rgb(27, 160, 38);
+}
+
+.width90 {
+    width: 90%;
+}
+
+.tablo tr th,
+.tablo tr td {
+    text-align: center;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 5px;
+}
+
+.panel input {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.tablolar {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.tablo select {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    width: 60%;
+}
+
+.tablo2 select {
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: orange;
+    color: white;
+    width: 100%;
+}
+
+.tablo select option {
+    text-align: center;
+}
